@@ -38,13 +38,13 @@ Output → Matching projects + interns
 ⸻
 
 📁 Suggested Folder Structure
-
+```
 /your-branch/
   /frontend   → React app
   /api        → .NET Web API
   /db         → SQL schema + import commands
   /data       → CSV files
-
+```
 
 ⸻
 
