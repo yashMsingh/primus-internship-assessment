@@ -2,7 +2,7 @@
 
 ## Internship Task — React + .NET + PostgreSQL
 
-This assignment provides three CSV datasets: Interns, Projects, Evaluations, along with three input UI mockups. Your task is to build a full-stack solution that loads the data into PostgreSQL, exposes it via a .NET Web API, and displays it in a React frontend.
+This assignment provides three CSV datasets: Interns, Projects, Evaluations, along with three input UI mockups. Your task is to build a full-stack solution that loads the data into PostgreSQL, exposes it via a .Net in the backend, and displays it in a React frontend.
 
 ⸻
 
@@ -20,21 +20,21 @@ This assignment provides three CSV datasets: Interns, Projects, Evaluations, alo
 	4.	Build a React frontend with 3 input pages:
 		•	Page 1: Intern Details
 				Inputs → intern_id, name, email, degree, university, graduation year
-				Output → Fetch intern details from API (accordion view)
+				Output → Fetch intern details from API 
 		•	Page 2: Project Details
 				Inputs → project fields
 				Output → Project info + interns involved + evaluations
 		•	Page 3: Evaluation Criteria
 				Inputs → evaluation filters (score, evaluator, dates, nested project fields)
 				Output → Matching projects + interns
-	5.	Show results cleanly using tables/accordions. Add loading/error messages.
+	5.	Show results cleanly using tables/accordions. You can put in your creativity into the Output Pages. Don't forget to add loading/error messages.
 
 
 
 🗂 Expected Tech Stack
 
 	•	Frontend: React (functional components + Hooks, axios, simple CSS)
-	•	Backend: .NET Web API
+	•	Backend: .NET
 	•	Database: PostgreSQL
 
 
@@ -43,7 +43,7 @@ This assignment provides three CSV datasets: Interns, Projects, Evaluations, alo
 ```
 /your-branch/
   /frontend   → React app
-  /api        → .NET Web API
+  /backend    → .NET 
   /db         → SQL schema + import commands
   /data       → CSV files
 ```
